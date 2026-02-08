@@ -1,0 +1,18 @@
+The given text files have the following purposes:
+
+all_protein_kinases: names of all the necessary protein kinases in text format
+clinical_trials_results: data on the extracted clinical trials from clinicaltrials.gov
+disease_synonyms: faster access for all synonyms of PKI’s
+diseases_db_updated: storage of all conditions, including name, UMLS ID, and MeSHID (if given)
+gene_to_adverse_events_dict: storage of higher calculated correlations between genes and adverse events for faster access
+mechanisms: contains the curated affinity data for the PKI’s
+papers_db: all extracted papers, including paper titles, abstracts, full texts, IDs, publication year
+PKI-AE-occurrences: extracted necessary adverse events data from FAERS for our PKI’s
+PKI_mol_similarities_matrix: faster access for calculated measured affinity similarity between individual PKIs for faster access
+PKI’s: includes full chembl information on all our PKI’s (name, approval, weight,…)
+protein_kinase_inhibitors: names of all the necessary protein kinase inhibitors (our drugs) in text format
+protein_kinase_inhibitors_drugbank: names of all protein kinase inhibitors I could find from drug bank
+relations_db_updated: all extracted relations with the columns: relation ID (drug+condition), drug, condition, and papers mentioning relation
+rels_with_rev: same as relations_db_updated but includes all our reviews (bias, effect, terms, key sentence etc.)
+total_disease_occurrences: full unstructured necessary adverse events data from FAERS
+affinity_data folder: data from Small Molecule Suite for measured affinity extraction
